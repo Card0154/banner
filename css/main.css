@@ -25,9 +25,19 @@ html {
 }
 
 .banner {
-
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-height: 24em;
 }
 
 .banner-content {
-
+  display: block;
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  width: 100%;
 }
